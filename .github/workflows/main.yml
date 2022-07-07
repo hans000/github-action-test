@@ -10,9 +10,9 @@ jobs:
       
       - uses: actions/setup-node@v3.3.0
         with:
-          noed-version: 16
+          noed-version: '16'
 
       - name: Run a multi-line script
         run: |
-          npm install,
-          npm run build.
+          npm install
+          npm run build
