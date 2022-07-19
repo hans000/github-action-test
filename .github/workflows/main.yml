@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: '16'
       
-      - uses: pnpm/action-setup@latest
+      - uses: pnpm/action-setup@^2
 
       - name: Run a multi-line script
         run: |
