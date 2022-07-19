@@ -1,9 +1,8 @@
-const fse = require('fs-extra')
-const path = require('path')
 
-const filename = path.resolve('./docs/test.txt')
+const root = document.querySelector('#root')
 
-if (! fse.existsSync(filename)) {
-    fse.mkdirSync(path.dirname(filename))
-}
-fse.writeFileSync(filename, '{}')
+root.innerHTML = `
+<div>
+    <h1>demo test</h1>
+</div>
+`
